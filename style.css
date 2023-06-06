@@ -240,15 +240,21 @@ div {
     border-radius: 20px;
 }
 
+.summoner-pic {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+}
+
 .summoner-info {
     margin-left: 10px;
-    margin-top: 20px;
-    margin-bottom: 100px;
+    margin-top: 25px;
 }
 
 .summoner-name{
     text-decoration: none;
-    font-style: italic;
+    font-style: static;
     color: #D3D3D3;
     margin: 0px;
     padding: 0px;
