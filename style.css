@@ -4,6 +4,7 @@ body, li, ul, p {
     list-style: none;
     font-size: 1.2rem;
     font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
 }
 /* CSS ZVX-BARALDS */
 p {
@@ -16,17 +17,17 @@ a {
 }
 
 .header {
-    background-color: #1e2124;
+    background-color: #292e35;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0px;
     align-items: center;
 }
 
 .menu  {
 display: flex;
-background-color: #1e2124;
+background-color: #292e35;
 }
 
 .menu li {
@@ -40,12 +41,12 @@ transition: 0.3s;
 }
 
 body {
-background-color: #111214;
+background-color: #1c2025;
 }
 
 li:hover {
-    background-color: pink;
-    border-radius: 10px;
+    background-color: #ff253a;
+    border-radius: 5px;
 }
 
 img {
@@ -70,11 +71,12 @@ img {
     flex-wrap: wrap;
     margin-top: 15px;
     margin-right: 10px;
-    background-color: #36393e;
+    background-color: #22262b;
     justify-content: center;
     text-align: center;
     max-width: 519px;
-    border-radius: 50px;
+    border-radius: 0px;
+    box-shadow: -1px 1px 10px black;
 }
 
 .items {
@@ -82,7 +84,6 @@ img {
     justify-content: center;
     flex-wrap: wrap;
     width: 60px;
-    
 }
 
 div {
@@ -100,7 +101,6 @@ div {
     flex-direction: column;
     margin-top: 5px;
     gap: 12px;
-    
 }
 
 .firstrune {
@@ -127,7 +127,6 @@ div {
     flex-wrap: wrap;
     gap: 15px;
     padding: 8px;
-
 }
 @media screen and (max-width: 576px) {
     .build {
@@ -150,9 +149,9 @@ div {
   }
 
 .citar {
-    font-size: 16px;
+    font-size: 15px;
     background-color: #282b30;
-    border-radius: 20px;
+    border-radius: 0px;
     max-width: 259.5px;
     justify-content: center;
     margin-left: 25%;
@@ -160,7 +159,7 @@ div {
     display: flex;
     margin-right: 25%;
     flex-wrap: wrap;
-    
+    box-shadow: 3px 3px 1px rgba(0,0,0,75%);
 }
 
 .keystoneGrayScale {
@@ -174,14 +173,14 @@ div {
    border-radius: 50%;
    height: 55px;
    width: 55px;
-   
+   box-shadow: 5px 5px 5px rgba(0,0,0,75%);
 }
 
 .jannaimg {
    border-radius: 50%;
    height: 120px;
    width: 120px;
-   
+   box-shadow: 5px 5px 5px rgba(0,0,0,75%);
 }
 
 .atributos {
@@ -197,6 +196,7 @@ div {
 .championpic > p {
     font-style: italic;
     color:#D3D3D3;
+    
 }
 
 .items > img{
@@ -225,7 +225,7 @@ div {
 
 .sideSummoners{
     height: 100%;
-    padding: 20px 0; 
+    padding: 10px 0;
 }
 
 .summonersSection{
@@ -237,7 +237,8 @@ div {
     justify-content: left;
     text-align: center;
     max-width: 219px;
-    border-radius: 20px;
+    border-radius: 0px;
+    box-shadow: 3px 2px 5px black;
 }
 
 .summoner-pic {
@@ -245,20 +246,40 @@ div {
     height: 60px;
     width: 60px;
     margin-left: 20px;
+    box-shadow: 3px 2px 5px black;
 }
 
 .summoner-info {
+    display: block;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-right: 10px;
     margin-left: 10px;
-    margin-top: 25px;
+    background-color: #1c2025;
+    justify-content: center;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 10px;
 }
 
 .summoner-name{
     text-decoration: none;
     font-style: static;
-    color: #D3D3D3;
+    color: #FFF;
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
     font-family: 'Source Sans Pro', sans-serif;
+    text-shadow: none;
+}
+
+.shadowtext {
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 1);
+    color: #D3D3D3
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
 }
